@@ -241,7 +241,7 @@
 
     </dependencies>
 
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<repository>
 			<id>toolchain-nexus</id>
 			<url>${nexus.release.url}</url>
@@ -250,7 +250,7 @@
 			<id>toolchain-nexus</id>
 			<url>${nexus.snapshot.url}</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 	
     <build>
         <!-- Maven will append the version to the finalName (which is the
