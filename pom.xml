@@ -117,18 +117,21 @@
         <dependency>
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
         
         <dependency>
             <groupId>javax.inject</groupId>
             <artifactId>javax.inject</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
         
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
        
@@ -137,6 +140,7 @@
         <dependency>
             <groupId>org.jboss.spec.javax.annotation</groupId>
             <artifactId>jboss-annotations-api_1.1_spec</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -145,6 +149,7 @@
         <dependency>
             <groupId>org.jboss.spec.javax.ws.rs</groupId>
             <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -153,6 +158,7 @@
         <dependency>
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.0-api</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -161,6 +167,7 @@
         <dependency>
             <groupId>org.jboss.spec.javax.ejb</groupId>
             <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -169,6 +176,7 @@
         <dependency>
             <groupId>org.jboss.spec.javax.servlet</groupId>
             <artifactId>jboss-servlet-api_3.0_spec</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -178,6 +186,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
@@ -195,6 +204,7 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-jpamodelgen</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>provided</scope>
         </dependency>
 
@@ -202,6 +212,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>${version.jboss.bom.eap}</version>
             <scope>test</scope>
         </dependency>
 
