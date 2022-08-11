@@ -46,7 +46,9 @@
     </pluginRepositories>
 
     <properties>
-        <maven-release-plugin.version>2.5.3</maven-release-plugin.version>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
+	<maven-release-plugin.version>2.5.3</maven-release-plugin.version>
         <!-- Explicitly declaring the source encoding eliminates the following 
             message: -->
         <!-- [WARNING] Using platform encoding (UTF-8 actually) to copy filtered 
