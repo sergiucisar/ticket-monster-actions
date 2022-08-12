@@ -35,6 +35,6 @@ jobs:
     - name: Release
       run: |
         mvn -version
-        mvn --file pom.xml -B release:prepare release:perform -Dmaven.test.skip=true      
+        mvn --file pom.xml -DskipTests -B release:prepare -Dmaven.test.skip=true release:perform -Dmaven.test.skip=true      
 #        with:
 #          maven-args: "-Dmaven.javadoc.skip=true -DskipTests -DskipITs -Dmaven.deploy.skip=true"
